@@ -1,1 +1,3 @@
-console.log("Hello World!");
+module.exports = function(width, height) {
+  return width * height;
+};
