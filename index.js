@@ -9,4 +9,4 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'}); 
     res.write('Node.js says hello!');
     res.end();
-}).listen(8087, ip);
+}).listen(8080, ip);
