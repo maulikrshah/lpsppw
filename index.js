@@ -1,5 +1,7 @@
 // include http module in the file
 var http = require('http');
+
+var ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
  
 // create a server listening on 8087
 http.createServer(function (req, res) {
@@ -7,4 +9,4 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'}); 
     res.write('Node.js says hello!');
     res.end();
-}).listen(8087);
+}).listen(8087, ip);
