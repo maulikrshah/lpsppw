@@ -1,5 +1,6 @@
 // include http module in the file
 var http = require('http');
+var mysql = require('mysql');
 
 var ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
  
