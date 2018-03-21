@@ -4,17 +4,22 @@
   "description": "test-app-LPS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maulikrshah/lpsppw.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maulik",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maulikrshah/lpsppw/issues"
   },
-  "homepage": "https://github.com/maulikrshah/lpsppw#readme"
+  "homepage": "https://github.com/maulikrshah/lpsppw#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.3"
+  },
+  "devDependencies": {}
 }
